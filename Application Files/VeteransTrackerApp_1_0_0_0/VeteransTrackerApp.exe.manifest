@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="VeteransTrackerApp.exe" version="1.0.0.0" publicKeyToken="b94bae7845e74a32" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="VeteransTrackerApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="VeteransTrackerApp.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MySql.Data.dll" size="454144">
+      <assemblyIdentity name="MySql.Data" version="6.9.3.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ygq2u10T2lBApxRKKvkWdyoZDQTe1p2powzCliKJu1M=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MySql.Data.Entity.EF5.dll" size="354304">
+      <assemblyIdentity name="MySql.Data.Entity.EF5" version="6.9.3.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>yrbiyF4gqfdMsYMrt02ZUK1tjz47woE5rnu7/27iSw0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MySql.Data.Entity.EF6.dll" size="367104">
+      <assemblyIdentity name="MySql.Data.Entity.EF6" version="6.9.3.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>drpwC/xbU3gR1WPx3PvU32mCBjOXdbmHmCat4OMZbx4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MySql.Web.dll" size="174592">
+      <assemblyIdentity name="MySql.Web" version="6.9.3.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>hhhNp+gsBJAPnVy47zdDR9dBbqh0nsw6pSrvtGYKyGw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="VeteransTrackerApp.exe" size="63968">
+      <assemblyIdentity name="VeteransTrackerApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>j3wBFU4CvMZIupPSsxnCM4cRWyvTbVDcMBbxnoUmxNU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="VeteransTrackerApp.exe.config" size="530">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>oVcnYqS607Cs6YMYgNO2IqApU9TZHLbkEokkkGXYyts=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-I9P7TCG\timot" issuerKeyHash="1256094e08572489e5245e782670a051cff9962a" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>x+bLkdE/sQj9UEkL3dWCt7Bp/lv58hpNJSYkOZAO2rg=</DigestValue></Reference></SignedInfo><SignatureValue>JBIkP6uf+CP6nvP2RHgA1+DYHojbSVXovNGuAOc+G71yaLW5sEumUEdIc5sGvYHOL9pUkWnJsIen3/4SvfT9qDcyNgOa8+/+04Ykqs2k4SkVX2Ru2B1I8Q2hsPhfAFAzfdZTMUIcC1bySq+JFi7nE7Gw6UGCOe0rbGv6/lldOdw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>2RvTN1hYgriMA0OmsMPfWRf4fWnuI31XvTazge00a/d9nz+DZCepAuezGGIQL/D2QK9rak/NIZZMPovSrZ8iFu78BOLZ6/XV36/sViIssJYtuPL64eU6/x9EoN0MBKx0Qo/1SAZmLPqwMIjTgrGjYd6ZDebCnl6kROYtziCcqEE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="b8da0e90392426254d1af2f95bfe69b0b782d5dd0b4950fd08b13fd191cbe6c7" Description="" Url=""><as:assemblyIdentity name="VeteransTrackerApp.exe" version="1.0.0.0" publicKeyToken="b94bae7845e74a32" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-I9P7TCG\timot</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>RdxfqVsnOCz72aKFn7/1n4rRQZypzwOIIS6yXRNZtwA=</DigestValue></Reference></SignedInfo><SignatureValue>DuBwkvF3OoNRZkuBVCZDVQu+pH2OVqXf8H45IU+1kdVeQI317nymnHq4mpeZTIQ9uzHPOPOXWzLES3hU6YjAWP0on8E2bAk5IdGHE5C+hv3olWyNRZPvvvjvq2B6zMcPCx2LGJi9EpHSQI42nad/i43fE3msFop6xq8fi/KyS2Y=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>2RvTN1hYgriMA0OmsMPfWRf4fWnuI31XvTazge00a/d9nz+DZCepAuezGGIQL/D2QK9rak/NIZZMPovSrZ8iFu78BOLZ6/XV36/sViIssJYtuPL64eU6/x9EoN0MBKx0Qo/1SAZmLPqwMIjTgrGjYd6ZDebCnl6kROYtziCcqEE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQJvLveBMGQ7dOcEYNovog+jANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEkAOQBQADcAVABDAEcAXAB0AGkAbQBvAHQwHhcNMTgxMjExMDIwOTI5WhcNMTkxMjExMDgwOTI5WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEkAOQBQADcAVABDAEcAXAB0AGkAbQBvAHQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANkb0zdYWIK4jANDprDD31kX+H1p7iN9V702s4HtNGv3fZ8/g2QnqQLnsxhiEC/w9kCva2pPzSGWTD6L0q2fIhbu/ATi2ev11d+v7FYiLLCWLbjy+uHlOv8fRKDdDASsdEKP9UgGZiz6sDCI04Kxo2HemQ3mwp5epETmLc4gnKhBAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAWLpaMflubvJ4+xZzEICPm0MuqjIDUTx9Pg0RurEGjY1MAUEKZ5H/Mk+wN3idSDaUOhskKbbbyyaD5/Nucnzz7wqPIMZ9SjiwjKEzlR5VoaoinUS4Oqe5e6iWgM1TSGKF9qVt3PLy8ec+RfcQPldCjNdKdov+bO6ZPPIZ5oyTnPE=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
